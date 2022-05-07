@@ -19,7 +19,7 @@ jobs:
   rubocop:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: True
 
     steps:
     - name: Checkout repository
